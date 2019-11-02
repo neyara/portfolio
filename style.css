@@ -1,0 +1,276 @@
+/*
+Color Palete
+#d2fafb
+#6bc5d2
+#105e62
+#b5525c
+*/
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #009f9d;
+    font-size: 3rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    color: #009f9d;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+h3 {
+    color: #00807d;
+    font-family: 'Nunito', sans-serif;
+}
+
+h5 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Nunito', serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 4%;
+}
+
+footer {
+    background-color: #E4F9F5;
+    padding: 20px 0;
+}
+
+
+#title {
+    background-color: #E4F9F5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.section-icon {
+    background-color: beige;
+    border-radius: 50%;
+    width: 12%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-title{
+    margin-top: 20px;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+    padding: 0 0 5rem;
+}
+
+.navbar-light .navbar-brand {
+    color: #00807d;
+    font-size: 2rem;
+    font-family: 'Vibur', cursive;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #00807d;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #00807d;
+    font-size: 1.1rem;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00807d;
+}
+
+.top-container {
+    margin-bottom: 5rem;
+}
+
+/*Title Description*/
+
+.intro {
+    font-weight: 500;
+}
+
+.paper-plane-img {
+    margin: 30px auto;
+    width: 100%;
+}
+
+/*Title Profile Image*/
+
+.profile-img {
+    background-color: #64b2cd;
+    border-radius: 100%;
+    margin: 60px;
+    padding-top: 8px;
+    width: 250px;
+}
+
+.top-cloud {
+    position: absolute;
+    width: 40%;
+    right: 350px;
+    top: 10px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    width: 30%;
+    left: 380px;
+    top: 250px;
+}
+
+/*About*/
+#about-img {
+    width: 100%;
+    position: relative;
+    right: 5px;
+}
+
+.about-description{
+    font-family: 'Montserrat', serif;
+    font-size: 1.5rem;
+    padding: 0 20%;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+figure{
+    width: 200px;
+    margin: 8px;
+}
+
+figure img{
+    width: 100%;
+}
+
+/*Projects*/
+
+#first-project {
+    background-color: #6bc5d2;
+}
+
+#second-project {
+    background-color: #b5525c;
+}
+
+.project-web-img {
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.project-mob-img {
+    width: 50%;
+}
+
+.project-title {
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.project-category {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.project-description {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    padding: 0 20%;
+}
+
+/*Contact*/
+
+.contact-message {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+.btn {
+    background: #009f9d;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+    background: #00807d;
+    color: white;
+}
+
+
+/*Footer*/
+
+.footer-link {
+    color: #11999E;
+    margin: 10px 20px;
+}
+
+.footer-link:hover {
+    color: #00807d;
+}
+
+.copyright {
+    color: #00807d;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.freepik-reference {
+    color: #00807d;
+    font-size: 0.75rem;
+}
+
+.freepik-reference a {
+    color: #11999E;
+    font-family: 'Merriweather', serif;
+}
+
+.freepik-reference a:hover {
+    color: #00807d;
+}
